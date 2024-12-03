@@ -1,0 +1,35 @@
+main {
+  margin: 2em auto;
+  width: 80%;
+}
+
+.add-ingredient-form {
+  display: flex;
+  justify-content: center;
+  gap: 0.75em;
+  /* height: 38px; */
+}
+
+.add-ingredient-form > input {
+  border-radius: 6px;
+  border: 1px solid var(--color-grey-darker);
+  padding: 0.6em 1em;
+  box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.05);
+  flex-grow: 1;
+}
+
+.add-btn {
+  font-family: var(--font-main);
+  border-radius: 6px;
+  border: none;
+  background-color: var(--color-black);
+  color: var(--color-grey);
+  padding: 0 2em;
+  font-size: 0.875rem;
+  font-weight: 500;
+}
+
+.add-btn::before {
+  content: '+';
+  margin-right: 0.35em;
+}

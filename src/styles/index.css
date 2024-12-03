@@ -1,0 +1,23 @@
+@import url(./variables.css);
+@import url(./header.css);
+@import url(./main.css);
+
+* {
+  box-sizing: border-box;
+}
+
+body,
+html {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: var(--font-main);
+  background-color: var(--color-grey);
+}
+
+/* TYPOGRAPHY */
+h1 {
+  font-weight: 400;
+}
